@@ -501,7 +501,7 @@ on fs
     chown system system /sys/class/camera/rear/rear_hwparam
     chown system radio /sys/class/camera/flash/rear_flash
     chown system radio /sys/class/camera/flash/front_flash
-    chown media system /sys/class/camera/flash/torch_flash
+    chown cameraserver system /sys/class/camera/flash/torch_flash
     chown system radio /sys/class/camera/front/front_camfw
     chown system radio /sys/class/camera/front/front_camfw_full
     chown system radio /sys/class/camera/front/front_checkfw_factory
